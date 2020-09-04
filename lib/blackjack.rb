@@ -15,15 +15,16 @@ def prompt_user
 end
 
 def get_user_input
-  return gets.chomp
+  input = gets.chomp
+  return input
 end
 
 def end_game
-  # code #end_game here
+  
 end
 
 def initial_round
-  # code #initial_round here
+  # code initial_round here
 end
 
 def hit?
