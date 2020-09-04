@@ -51,6 +51,10 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  welcome
+  total = initial_round
+  while total <= 21 do
+    hit?
+  end
 end
     
